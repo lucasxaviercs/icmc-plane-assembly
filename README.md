@@ -52,10 +52,10 @@ A cada iteração:
 
 1. Atualiza a entropia usada no sistema aleatório  
 2. Desenha o cenário (`Desenhar_TelaJogo`)  
-3. Lê os comandos do jogador (`Input`)  
-4. Move obstáculos (`MoveObs`)  
-5. Gera novos obstáculos (`SpawnObs`)  
-6. Atualiza o score (`UpdateScore`)  
+3. Lê os comandos do jogador (`InputTeclado`)  
+4. Move obstáculos (`MovimentoObstaculos`)  
+5. Gera novos obstáculos (`SpawnObstaculos`)  
+6. Atualiza o score (`AtualizaScore`)  
 7. Executa um atraso para controlar a velocidade do jogo (`Delay`)  
 
 ---
@@ -76,7 +76,7 @@ A cada iteração:
   - Move 1 linha para baixo (soma 40 ao endereço)  
   - Redesenha o caractere  
 - **Colisão:**  
-  - Se a posição de um obstáculo = posição do avião (`AviãoPos`), o jogo vai para `GameOver`
+  - Se a posição de um obstáculo = posição do avião (`AviaoPos`), o jogo vai para `GameOver`
 
 ---
 
