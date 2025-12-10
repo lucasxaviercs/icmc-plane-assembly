@@ -102,13 +102,18 @@ Acesse o nosso [vídeo demonstrativo]().
 ## 📸 Screenshots
 
 ### 1. Tela Inicial
-*(Insira a imagem aqui)*
+![Tela Inicial](prints/start-screen.jpeg)
+
 
 ### 2. Gameplay
-*(Insira a imagem aqui)*
+![Tela de Jogo](prints/game-screen.jpeg)
 
-### 3. Game Over / Vitória
-*(Insira a imagem aqui)*
+### 3. Vitória
+![Tela Vitória](prints/win-screen.jpeg)
+
+### 4. Game Over
+
+![Tela Game Over](prints/game-over-screen.jpeg)
 
 ---
 
